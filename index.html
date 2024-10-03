@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-100</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+
+    <header class="main-header position-fixed wow wow animate__animated animate__slideInDown">
+        <nav class="navbar navbar-expand-xl" aria-label="Main navigation">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo (2).png" alt="header-logo-img">
+            </a>
+            <div class="main-link-icon" id="navbarSupportedContent">
+                <ul class="navbar-nav destop-nav mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="" id="navbarDropdown" role="button">
+                            Programs <img src="assets/images/down-arrow.png" alt=""></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Fellows</a>
+                            <a class="dropdown-item" href="#">Growth</a>
+                            <a class="dropdown-item" href="#">48Hrs</a>
+                            <a class="dropdown-item" href="#">Summit</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button">
+                            Network <img src="assets/images/down-arrow.png" alt=""></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Members</a>
+                            <a class="dropdown-item" href="#">Partners</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button">
+                            Resource <img src="assets/images/down-arrow.png" alt=""></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Blog</a>
+                            <a class="dropdown-item" href="#">Press</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#">Portal</a>
+                    </li>
+
+                </ul>
+
+                <div class="header-end-icon">
+                    <a class="responsivemenu" href="#" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+                        <img src="assets/images/fa-bar-icon.png" alt="Menu icon">
+                    </a>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                        id="mainOffcanvas" aria-labelledby="mainOffcanvasLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title" id="mainOffcanvasLabel">
+                                <a class="navbar-brand" href="#">
+                                    <img src="assets/images/logo (2).png" alt="banner-img">
+                                </a>
+                            </div>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav mobile-nav mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownOffcanvas1" role="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas1"
+                                        aria-controls="capabilitiesOffcanvas1">Programs
+                                        <img src="assets/images/free-arrow-down-icon-3101-thumb-removebg-preview.png"
+                                            alt="dropdown-menu-img">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownOffcanvas2" role="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas2"
+                                        aria-controls="capabilitiesOffcanvas2">Networks
+                                        <img src="assets/images/free-arrow-down-icon-3101-thumb-removebg-preview.png"
+                                            alt="dropdown-menu-img">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownOffcanvas3" role="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas2"
+                                        aria-controls="capabilitiesOffcanvas2">Resource
+                                        <img src="assets/images/free-arrow-down-icon-3101-thumb-removebg-preview.png"
+                                            alt="dropdown-menu-img">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="navbarDropdownOffcanvas4" role="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas2"
+                                        aria-controls="capabilitiesOffcanvas2">Portal
+
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <div class="bttn header-btn mobile-btn">
+                                <a href="#" class="text-white">Apply Now
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Offcanvas 1 -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="capabilitiesOffcanvas1"
+                        aria-labelledby="capabilitiesOffcanvasLabel1">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title" id="mainOffcanvasLabel1">
+                                <a class="navbar-brand" href="#">
+                                    <img src="assets/images/logo (2).png" alt="banner-img">
+                                </a>
+                            </div>
+                            <button id="backButton" class="back-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+                                <img src="assets/images/Vector (14).png" alt="back-img">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav" aria-labelledby="navbarDropdownOffcanvas1">
+                                <li class="nav-item"><a class="nav-link" href="#">Fellows</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Growth</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">48Hrs</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Summit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Offcanvas 2 -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="capabilitiesOffcanvas2"
+                        aria-labelledby="capabilitiesOffcanvasLabel2">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title" id="mainOffcanvasLabel2">
+                                <a class="navbar-brand" href="#">
+                                    <img src="assets/images/logo (2).png" alt="banner-img">
+                                </a>
+                            </div>
+                            <button id="backButton" class="back-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+                                <img src="assets/images/Vector (14).png" alt="back-img">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav" aria-labelledby="navbarDropdownOffcanvas2">
+                                <li class="nav-item"><a class="nav-link" href="#">Members</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Offcanvas 3 -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="capabilitiesOffcanvas3"
+                        aria-labelledby="capabilitiesOffcanvasLabel3">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title" id="mainOffcanvasLabel2">
+                                <a class="navbar-brand" href="#">
+                                    <img src="assets/images/logo (2).png" alt="banner-img">
+                                </a>
+                            </div>
+                            <button id="backButton" class="back-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+                                <img src="assets/images/Vector (14).png" alt="back-img">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav" aria-labelledby="navbarDropdownOffcanvas2">
+                                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Press</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="common-btn">
+                <a href="#">Apply Now
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="c-100-banner-section">
+            <div class="banner-img">
+                <img src="assets/images/banner.png" alt="">
+            </div>
+            <div class="banner-about">
+                <h1>DEDICATED TO CANADA’S
+                    RISE IN TECH.</h1>
+                <p>
+                    <span>We connect Canadian tech entrepreneurs to
+                        our</span>
+                    <span>Silicon Valley and global network of
+                        founders,</span>
+                    <span> operators and investors to help accelerate
+                        Canada as</span>
+                    <span>a leader in global technology innovation.
+                </p></span>
+                <div class="common-btn">
+                    <a href="">Apply Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="organization-wrapper">
+            <div class="container">
+                <h2>We are a member-driven organization
+                    of Canadian tech veterans.</h2>
+            </div>
+            <div class="organization-imgs my-4">
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-12">
+                        <img src="assets/images/1270-C100-Day2-230216-v2.jpg" alt="Image 1" class="img-fluid rounded">
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="row g-3">
+                            <div class="col-md-4 col-12">
+                                <img src="assets/images/469A4598-v2.jpg" alt="Image 2" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <img src="assets/images/C100_HL_D2-31.jpg" alt="Image 3" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <img src="assets/images/20230920-_U7A7152.jpg" alt="Image 4" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <img src="assets/images/C100_HL_D2-2.jpg" alt="Image 5" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <img src="assets/images/SlavaBlazerPhotography-4.jpg" alt="Image 5"
+                                    class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brand-logo">
+            <div class="container">
+                <div class="heading">
+                    <h6>Our members are leaders at some of the world's top tech companies.</h6>
+                </div>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_1password.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_8vc.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_a16z.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_doordash.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_apple.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_cloudflare.png" alt="" />
+                        </div>
+
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_microsoft.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_rakuten.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_roblox.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_salesforce.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_shopify.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_1password.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_8vc.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_a16z.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_apple.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_cloudflare.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_doordash.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_microsoft.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_rakuten.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_roblox.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_salesforce.png" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="assets/images/C100-home-logos_shopify.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-we-do">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="how-about">
+                            <h1>HOW WE DO IT</h1>
+                            <ul>
+                                <li>C100's membership encompasses over 500 tenured C-suite
+                                    executives, CEOs, and founders of influential technology
+                                    companies, whose companies represent tens of trillions in
+                                    market cap. </li>
+                                <li>Our GP-level investor members represent leading investment firms with a combined
+                                    AUM of over $80 billion. </li>
+                                <li>Founders in our membership have built companies collectively
+                                    valued at over $100 billion. </li>
+                                <li>Since its inception in 2010, C100's early-stage fellowship
+                                    companies have collectively raised over $5 billion in venture
+                                    funding and created over $15 billion in market value.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="red-background">
+                            <div class="redbox-items">
+                                <div class="box-items">
+                                    <h2><span class="number">500</span><sup class="plus">+</sup></h2>
+                                    <p>Members</p>
+                                </div>
+                                <div class="box-items">
+                                    <h2><sup class="currency">$</sup><span class="number">100</span><span
+                                            class="billion">B</span></h2>
+                                    <p>Combined Valuation by C100 Members</p>
+                                </div>
+                                <div class="box-items">
+                                    <h2><sup class="currency">$</sup><span class="number">80</span><span
+                                            class="billion">B</span></h2>
+                                    <p>Combined AUM by Investor Members</p>
+                                </div>
+                                <div class="box-items">
+                                    <h2><sup class="currency">$</sup><span class="number">5</span><span
+                                            class="billion">B</span></h2>
+                                    <p>Venture Capital Raised by Fellows Alumni</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="what-we-do">
+            <div class="container">
+                <div class="common-heading">
+                    <h1>WHAT WE DO</h1>
+                    <p>We harness our membership to propel canadian tech start-ups forward</p>
+                    <div class="common-btn">
+                        <a href="">Apply Now</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <img src="assets/images/469A4762.jpg" alt=""
+                            class="what-we-img  wow animate__animated animate__fadeIn">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="what-we-about">
+                            <div class="detail-text">
+                                <div class="we-about-main">
+                                    <div class="icon wow animate__animated animate__zoomIn">
+                                        <img src="assets/images/icons.png" alt="">
+                                    </div>
+                                    <div class="we-about wow animate__animated animate__fadeInRight">
+                                        <h2>Empower founders
+                                        </h2>
+                                        <p>We identify Canada’s trailblazing founders and offer
+                                            unparalleled access to the expertise, networks, and
+                                            resources required to help them scale from early-stage to
+                                            category leader</p>
+                                    </div>
+                                </div>
+                                <div class="we-about-main">
+                                    <div class="icon wow animate__animated animate__zoomIn">
+                                        <img src="assets/images/squre.png" alt="">
+                                    </div>
+                                    <div class="we-about wow animate__animated animate__fadeInRight">
+                                        <h2>Support growth companies
+                                        </h2>
+                                        <p>We identify Canada's highest-potential, rapidly scaling
+                                            companies, and offer comprehensive support to address
+                                            common growth challenges, to support their path to a $B+ in
+                                            revenue</p>
+                                    </div>
+                                </div>
+                                <div class="we-about-main">
+                                    <div class="icon wow animate__animated animate__zoomIn">
+                                        <img src="assets/images/icone2.png" alt="">
+                                    </div>
+                                    <div class="we-about wow animate__animated animate__fadeInRight">
+                                        <h2>Pay-it-forward culture
+                                        </h2>
+                                        <p>Our members are passionate tech veterans with significant
+                                            experience as founders, investors, CEOs, and executives who
+                                            are dedicated to supporting fellow Canadian entrepreneurs.</p>
+                                    </div>
+                                </div>
+                                <div class="we-about-main">
+                                    <div class="icon wow animate__animated animate__zoomIn">
+                                        <img src="assets/images/icone3.png" alt="">
+                                    </div>
+                                    <div class="we-about wow animate__animated animate__fadeInRight">
+                                        <h2>Elevate Canada’s tech ecosystem
+                                        </h2>
+                                        <p>With insight and support from our membership and program
+                                            alumni, we catalyze the change needed for Canada to
+                                            become a destination where ambitious, market-defining
+                                            companies are founded and scaled.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="members-wrapper">
+            <div class="container">
+                <div class="common-heading">
+                    <h1>WHAT OUR MEMBERS ARE SAYING.</h1>
+                </div>
+                <div class="members-slider">
+
+                    <div class="member-card">
+                        <div class="slide-member">
+                            <p class="testi-text">We have all the ingredients to establish
+                                Canada as a tech powerhouse where we
+                                punch above our weight globally. C100
+                                can help connect the Canadian tech
+                                ecosystem and be an indispensable
+                                resource to founders and tech leaders.</p>
+                            <div class="about-member">
+                                <div class="member-img">
+                                    <img src="assets/images/mike-wessinger.png" alt="">
+                                </div>
+                                <h6>Mike Wessinger</h6>
+                                <span>Co-founder & Executive Chairman</span><br>
+                                <span>PointClickCare | Charter Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="slide-member">
+                            <p class="testi-text">C100 was instrumental in helping us raise
+                                our Series A and kicking off our expansion
+                                into the U.S.</p>
+                            <div class="about-member">
+                                <div class="member-img">
+                                    <img src="assets/images/profile-img.png" alt="">
+                                </div>
+                                <h6>Francis Davidson</h6>
+                                <span>CEO & Co-Founder
+                                </span><br>
+                                <span>Sonder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="slide-member">
+                            <p class="testi-text">Investing time with C100 fills me with
+                                optimism and passion for the next wave of
+                                Canadian entrepreneurs. As a Charter
+                                Member, I am plugged into many ways to
+                                share my experience and give back to the
+                                very ecosystem that provided me with
+                                countless opportunities</p>
+                            <div class="about-member">
+                                <div class="member-img">
+                                    <img src="assets/images/felix-belisle.jpeg" alt="">
+                                </div>
+                                <h6>Chris O' Neill</h6>
+                                <span>Senior Advisor</span><br>
+                                <span>Portag3 Ventures | Charter Mmber</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="member-card">
+                        <div class="slide-member">
+                            <p class="testi-text">We have all the ingredients to establish
+                                Canada as a tech powerhouse where we
+                                punch above our weight globally. C100
+                                can help connect the Canadian tech
+                                ecosystem and be an indispensable
+                                resource to founders and tech leaders.</p>
+                            <div class="about-member">
+                                <div class="member-img">
+                                    <img src="assets/images/mike-wessinger.png" alt="">
+                                </div>
+                                <h6>Mike Wessinger</h6>
+                                <span>Co-founder & Executive Chairman</span><br>
+                                <span>PointClickCare | Charter Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="slide-member">
+                            <p class="testi-text">C100 was instrumental in helping us raise
+                                our Series A and kicking off our expansion
+                                into the U.S.</p>
+                            <div class="about-member">
+                                <div class="member-img">
+                                    <img src="assets/images/felix-belisle.jpeg" alt="">
+                                </div>
+                                <h6>Francis Davidson</h6>
+                                <span>CEO & Co-Founder
+                                </span><br>
+                                <span>Sonder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="slide-member">
+                            <p class="testi-text">Investing time with C100 fills me with
+                                optimism and passion for the next wave of
+                                Canadian entrepreneurs. As a Charter
+                                Member, I am plugged into many ways to
+                                share my experience and give back to the
+                                very ecosystem that provided me with
+                                countless opportunities</p>
+                            <div class="about-member">
+                                <div class="member-img">
+                                    <img src="assets/images/felix-belisle.jpeg" alt="">
+                                </div>
+                                <h6>Chris O' Neill</h6>
+                                <span>Senior Advisor</span><br>
+                                <span>Portag3 Ventures | Charter Mmber</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="program-wrapper">
+            <div class="common-heading">
+                <h1>OUR PROGRAMS</h1>
+                <p>C100 programs support Canadian founders, CEOs and executives at all stages of
+                    their entrepreneurial journey.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+                    <div class="program-about ">
+                        <div class="detail-text">
+                            <div class="program-about-main">
+                                <div class="icon">
+                                    <img src="assets/images/icone-p-1.png" alt="">
+                                </div>
+                                <div class="we-about">
+                                    <h2>Growth
+                                    </h2>
+                                    <p>The newly launched C100 Growth Program is for
+                                        Canada’s most promising scale-stage tech
+                                        companies. It offers customized mentoring for
+                                        leadership teams, role-based peer groups,
+                                        in-person workshops, and access to an extensive
+                                        network of growth experts, experienced
+                                        executives, service providers and funders.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight">
+                    <img src="assets/images/469A4355.jpg " alt="" class="program-img">
+                </div>
+            </div>
+            <div class="row second">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+                    <img src="assets/images/SlavaBlazerPhotography-534.jpg " alt="" class="program-img">
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight">
+                    <div class="program-about">
+                        <div class="detail-text">
+                            <div class="program-about-main m-auto">
+                                <div class="icon">
+                                    <img src="assets/images/icone-p-2.png" alt="">
+                                </div>
+                                <div class="we-about">
+                                    <h2>Summit
+                                    </h2>
+                                    <p>Our annual growth summit event brings together top tech founders and leaders
+                                        operating worldwide to inspire, educate and connect our highest-performing
+                                        growth-stage Canadian founders.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+                    <div class="program-about">
+                        <div class="detail-text">
+                            <div class="program-about-main">
+                                <div class="icon">
+                                    <img src="assets/images/icone-p-3.png" alt="">
+                                </div>
+                                <div class="we-about">
+                                    <h2>Fellows
+                                    </h2>
+                                    <p>The C100 Fellows program empowers Canada’s
+                                        most promising early-stage founders to scale to
+                                        new heights. The annual fellowship provides
+                                        high-potential entrepreneurs with unparalleled
+                                        access to world-class mentorship and a
+                                        risk-embracing community of like-minded builders. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight">
+                    <img src="assets/images/469A3970.jpg" alt="" class="program-img">
+                </div>
+            </div>
+            <div class="row second">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+                    <img src="assets/images/20230920-_N1A7063.jpg" alt="" class="program-img">
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight">
+                    <div class="program-about">
+                        <div class="detail-text">
+                            <div class="program-about-main m-auto">
+                                <div class="icon">
+                                    <img src="assets/images/icone-p-3 (1).png" alt="">
+                                </div>
+                                <div class="we-about">
+                                    <h2>48Hrs
+                                    </h2>
+                                    <p>Our highly-curated tentpole event, “48Hrs in the
+                                        Valley,” takes place twice a year, bringing our
+                                        Fellows together in San Francisco to build
+                                        enduring and meaningful relationships with our
+                                        network of builders, operators, and investors.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog-wrapper">
+            <div class="container">
+                <div class="common-heading">
+                    <h1>IN THE NEWS</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-card">
+                            <div class="img">
+                                <img src="assets/images/b1.png" alt="">
+                            </div>
+                            <div class="blog-about">
+                                <p>Blog</p>
+                                <h3>C100 Honours Dax Dasilva with
+                                    Prestigious Icon of Canadian
+                                    Entrepreneurship Award</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-card">
+                            <div class="img">
+                                <img src="assets/images/b2.png" alt="">
+                            </div>
+                            <div class="blog-about">
+                                <p>Blog</p>
+                                <h3>C100 Launches New Growth
+                                    Program for Later Stage
+                                    Companies to Accelerate
+                                    Canada's Transformation to a
+                                    Technology Leader</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-card">
+                            <div class="img">
+                                <img src="assets/images/b3.png" alt="">
+                            </div>
+                            <div class="blog-about">
+                                <p>Press </p>
+                                <h3>C100 Appoints Seasoned Silicon
+                                    Valley-based Tech Leader
+                                    Michael Buhr as Executive
+                                    Director</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners-wrapper">
+            <div class="container">
+                <div class="common-heading">
+                    <h1>OUR PARTNERS</h1>
+                    <p>Our partners shape and support C100’s high-impact programs, delivering
+                        critical thought leadership for our participants and members. Leading
+                        disruption in their respective industries, it’s through their participation
+                        and support that C100 can impact the ecosystem as a whole.
+                    </p>
+                    <div class="common-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="img">
+                        <img src="assets/images/bdc.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="assets/images/roynat.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="join-wrapper">
+            <div class="container">
+                <div class="join-about">
+                    <p>GROW WITH US</p>
+                    <h2>Join our exceptional community of
+                        Canadian tech leaders. </h2>
+                    <div class="common-btn">
+                        <a href="">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="c100-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="logo-img">
+                            <img src="assets/images/logo (2).png" alt="">
+                        </div>
+                        <h5>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</h5>
+                        <p>©2024 C100 ® | All Rights Reserved </p>
+                        <a href="" class="policy">Privacy Policy</a>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex">
+                            <div class="footer-nav">
+                                <ul>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Fellows</a></li>
+                                    <li><a href="">Growth </a></li>
+                                    <li><a href="">48Hrs </a></li>
+                                    <li><a href="">Summit </a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav">
+                                <ul>
+                                    <li><a href="">Members</a></li>
+                                    <li><a href="">Partners</a></li>
+                                    <li><a href="">Blog </a></li>
+                                    <li><a href="">Press </a></li>
+                                    <li><a href="">Apply Now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="d-flex">
+                            <h6>Follow Us</h6>
+                            <li><a href=""><img src="assets/images/facebook.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/images/instagram.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/images/in.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/images/icon-f.png" alt=""></a></li>
+                        </ul>
+                        <p>Contact US</p>
+                        <form action="" method="get">
+                            <input type="text" placeholder="Full Name">
+                            <textarea name="message" id="" placeholder="Message"></textarea>
+                        </form>
+                        <div class="common-btn">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new WOW().init();
+        });
+    </script>
+</body>
+
+</html>
